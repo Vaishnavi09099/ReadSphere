@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+    width:100%;
+    
+}
+
+.formbox{
+   
+     background-color: rgba(255, 255, 255, 0.2); 
+     padding:45px;
+  
+     border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        transition: all 0.3s ease;
+
+}
+.formbox:hover{
+     transform: scale(1.03);
+   
+}
+h1{
+    margin-bottom: 10px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    background-color: rgba(102, 17, 44, 0.3);
+    width:50vw;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left form{
+    display: flex;
+    flex-direction: column;
+   gap:5px;
+   margin-top:30px;
+}
+.left input{
+    padding: 5px;
+    border:1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+.left button[type="submit"]{
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(228, 64, 108);
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.left button:hover{
+    background-color: rgb(101, 34, 34);
+    font-size: 15px;
+
+}
+.or{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.social-buttons{
+    display: flex;
+   
+    gap:10px;
+    justify-content: center;
+}
+
+.social-buttons button{
+    width: 20vw;
+    padding: 5px;
+     font-weight: bold;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signin{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.reminder{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.signin a{
+    color: rgb(16, 10, 103);
+    text-decoration: none;
+}
+.signin a:hover{
+    font-size: 16px;
+}
+.right{
+    
+    width:50vw;
+    overflow: hidden;
+}
+#forgot{
+    text-decoration: none;
+     color: rgb(16, 10, 103);
+}
