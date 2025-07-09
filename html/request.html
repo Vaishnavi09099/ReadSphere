@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Page</title>
+</head>
+<body>
+    <h1>Didn’t Find the Book You Were Looking For?</h1>
+    <p>We believe every reader deserves the book they want. If a book is missing from our collection, don’t worry — just fill in the request form below, and our team will do its best to add it to ReadSphere’s library.</p>
+    <h2>Fill in the details below to request your book!</h2>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="title">Book Title</label>
+        <input type="text" id="title">
+        <label for="author">Author Name</label>
+         <input type="text" id="author">
+         <label for="genre">Genre</label>
+         <select name="genre" id="genre">
+            <option value="" disabled selected>Select a genre</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Non-fiction">Non-fiction</option>
+            <option value="Science">Science</option>
+            <option value="Technology">Technology</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Romance">Romance</option>
+            <option value="Self-help">Self-help</option>
+            <option value="History">History</option>
+            <option value="Horror">Horror</option>
+            <option value="Education">Education</option>
+            <option value="Philosophy">Philosophy</option>
+         </select>
+         <label for="reason">Reason for Request</label>
+         <textarea name="reason" id="reason"  placeholder="Tell us why this book matters to you" rows="4" ></textarea>
+         <label for="urgency">Urgency</label>
+         <select name="urgency" id="urgency">
+            <option value="" disabled selected>Select Urgency Level disabled</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+         </select>
+    </form>
+    <button type="submit">Submit Request</button>
+</body>
+</html>
