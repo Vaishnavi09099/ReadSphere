@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+body{
+    height:100%;
+    background-color: white;
+}
+
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#mynav{
+    display: flex;
+    list-style-type: none;
+    gap:30px;
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+}
+#lgn-btn{
+    font-size: 20px;
+    display: inline-block;
+    padding:5px;
+    width: 80px;
+    border-radius: 5px;
+      font-family: "Comic Relief", system-ui;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.block1{
+      background-color: white;
+    height:50vh;
+   
+    padding:50px;
+    
+}
+.block2{
+    height:50vh;
+    background-color: rgba(192, 150, 51 ,0.5);
+   padding:50px;
+     
+}
+.block3{
+    height:50vh;
+    background-color: rgba(77, 77, 146,0.5);
+    padding:50px;
+    
+}
+.block4{
+    height:50vh;
+    background-color: rgba(92, 193, 92,0.5);
+   padding:50px;
+   
+}
+.block5{
+    height:50vh;
+    background-color: rgba(242, 103, 78,0.5);
+    padding:50px;
+    
+}
+.block6{
+    height:50vh;
+    background-color: rgba(192, 150, 51 ,0.5);
+    padding:50px;
+     
+  
+    
+}
+.block7{
+    height:50vh;
+   background-color: rgba(77, 77, 146,0.5);
+    padding:50px;
+    
+}
+h1,h2{
+    font-family: "Chicle", serif;
+  font-weight: 400;
+    font-style: normal;
+}
