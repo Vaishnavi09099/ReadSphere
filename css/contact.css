@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+}
+.navbar{
+    display: flex;
+   justify-content: space-between;
+    height:20vh;
+}
+.header{
+    height:20vh;
+    border:2px solid black;
+}
+.container{
+    height:60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    width:50vw;
+
+}
+.right{
+    width:50vw;
+   
+
+}
+form{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+.logo{
+    padding: 20px;
+}
+#nav{
+    display: flex;
+    gap:90px;
+
+}
+ul li{
+    
+    list-style-type: none;
+    font-size: 20px;
+     font-family: "Comic Relief", system-ui;
+    
+}
+.nav{
+    margin: 30px;
+    padding: 10px;
+    margin-right: 100px;
+}

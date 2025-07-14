@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/request.css">
     <title>Request Page</title>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Chicle&family=Comic+Relief:wght@400;700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Manufacturing+Consent&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Tagesschrift&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
 </head>
 <body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/assets/Read_sphere_logo.png" alt="logo" width="200px">
+        </div>
+        <div class="nav">
+            <ul id="nav">
+                <li>Home</li>
+                <li>Library</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container">
+   <div class="left">
     <h1>Didn’t Find the Book You Were Looking For?</h1>
-    <p>We believe every reader deserves the book they want. If a book is missing from our collection, don’t worry — just fill in the request form below, and our team will do its best to add it to ReadSphere’s library.</p>
-    <h2>Fill in the details below to request your book!</h2>
+    <p >We believe every reader deserves the book they want. If a book is missing from our collection, don’t worry — just fill in the request form , and our team will do its best to add it to ReadSphere’s library.</p>
+    <h2>Fill in the details to request your book!</h2>
+    </div>
+    <div class="right">
+        
     <form action="">
         <label for="name">Name</label>
         <input type="text" id="name">
@@ -43,7 +67,10 @@
             <option value="Medium">Medium</option>
             <option value="High">High</option>
          </select>
+          <button type="submit">Submit Request</button>
     </form>
-    <button type="submit">Submit Request</button>
+   
+    </div>
+    </div>
 </body>
 </html>

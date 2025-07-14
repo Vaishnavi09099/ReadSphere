@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    overflow: hidden;
+    
+}
+
+.navbar{
+    display: flex;
+   justify-content: space-between;
+    height:20vh;
+}
+.logo{
+    padding: 20px;
+}
+#nav{
+    display: flex;
+    gap:90px;
+
+}
+ul li{
+    
+    list-style-type: none;
+    font-size: 20px;
+     font-family: "Comic Relief", system-ui;
+    
+}
+.nav{
+    margin: 30px;
+    padding: 10px;
+    margin-right: 100px;
+}
